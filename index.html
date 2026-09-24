@@ -1,102 +1,47 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Hephzibah Behulah's cybersecurity study library — penetration testing, web security, networking, Linux, forensics, malware analysis and more.">
-  <title>Cybersecurity Study Library | Hephzibah Behulah</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Hephzibah Behulah Technology Lab: an OSINT-inspired learning platform for electronics, electrical engineering, cybersecurity, networking, Python and data analytics.">
+<title>Hephzibah Behulah | Technology Lab</title>
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="app-shell">
-    <header class="topbar">
-      <a class="brand" href="#top" aria-label="Cybersecurity Study Library home">
-        <span class="brand-mark">HB</span>
-        <span><strong>SECURITY</strong><small>STUDY LIBRARY</small></span>
-      </a>
-      <nav class="topnav" aria-label="Main navigation">
-        <a href="#library">Library</a>
-        <a href="#roadmap">Roadmap</a>
-        <a href="#about">About</a>
-        <a class="github-link" href="https://github.com/HephzibahBehulah/Hacking-Security-Ebooks" target="_blank" rel="noopener">GitHub ↗</a>
-      </nav>
-    </header>
-
-    <main id="top">
-      <section class="hero">
-        <div class="hero-copy">
-          <div class="eyebrow"><span class="pulse"></span> OPEN STUDY COLLECTION</div>
-          <h1>Learn security.<br><em>Think like a defender.</em></h1>
-          <p>A searchable personal cybersecurity library built around practical learning: networks, web security, penetration testing, Linux, forensics, malware, cryptography and security engineering.</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#library">Explore the library</a>
-            <a class="btn secondary" href="https://github.com/HephzibahBehulah" target="_blank" rel="noopener">View my GitHub</a>
-          </div>
-        </div>
-        <div class="terminal-card" aria-label="Library status">
-          <div class="terminal-head"><span></span><span></span><span></span><b>library://status</b></div>
-          <div class="terminal-body">
-            <div><i>identity</i> <strong>Hephzibah Behulah</strong></div>
-            <div><i>background</i> <strong>Electronics → Technology</strong></div>
-            <div><i>focus</i> <strong>Cybersecurity + Data Analytics</strong></div>
-            <div><i>method</i> <strong>Read → Lab → Document</strong></div>
-            <div><i>mode</i> <span class="online">● ONLINE</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="stats" id="library">
-        <div><strong id="book-count">—</strong><span>resources</span></div>
-        <div><strong id="category-count">—</strong><span>learning areas</span></div>
-        <div><strong>FREE</strong><span>interface</span></div>
-        <div><strong>LOCAL</strong><span>study first</span></div>
-      </section>
-
-      <section class="library-section">
-        <div class="section-heading">
-          <div><span class="section-kicker">01 / KNOWLEDGE BASE</span><h2>Security Library</h2></div>
-          <p>Inspired by the tree-and-search interaction model of OSINT Framework, adapted for a cybersecurity reading collection.</p>
-        </div>
-
-        <div class="controls">
-          <label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Search books, topics, tools..." autocomplete="off"></label>
-          <select id="category" aria-label="Filter by category"><option value="all">All areas</option></select>
-          <button id="reset" class="filter-btn" type="button">Reset</button>
-        </div>
-
-        <div class="notice"><span>i</span><p><strong>Study responsibly.</strong> This collection is presented as a learning index. Only test systems you own or are explicitly authorised to assess, and respect the copyright and licence terms of each work.</p></div>
-
-        <div id="library-grid" class="library-grid" aria-live="polite"></div>
-        <div id="empty" class="empty" hidden>No resources match your search.</div>
-      </section>
-
-      <section class="roadmap" id="roadmap">
-        <div class="section-heading"><div><span class="section-kicker">02 / LEARNING PATH</span><h2>Build the stack</h2></div><p>A practical sequence for moving from foundations to hands-on security work.</p></div>
-        <div class="tree">
-          <article><span>01</span><h3>Foundations</h3><p>Networking · Linux · protocols · security principles</p></article>
-          <article><span>02</span><h3>Web Security</h3><p>HTTP · authentication · injection · XSS · secure development</p></article>
-          <article><span>03</span><h3>Offensive Security</h3><p>Recon · enumeration · testing methodology · tooling</p></article>
-          <article><span>04</span><h3>Defensive Security</h3><p>Monitoring · hardening · incident response · defence in depth</p></article>
-          <article><span>05</span><h3>Forensics & Malware</h3><p>Evidence · analysis · reverse engineering concepts · threat research</p></article>
-          <article><span>06</span><h3>Security Engineering</h3><p>Cryptography · governance · architecture · risk · secure systems</p></article>
-        </div>
-      </section>
-
-      <section class="about" id="about">
-        <div class="about-card">
-          <span class="section-kicker">03 / THE BUILDER</span>
-          <h2>Wires taught precision.<br>Code taught possibility.<br>Security taught responsibility.</h2>
-          <p>This library is part of Hephzibah Behulah's transition from electronics into technology, with cybersecurity and data analytics as the long-term direction. The goal is not to collect PDFs. It is to turn reading into working knowledge through notes, labs, projects and documented experiments.</p>
-          <div class="tags"><span>Electronics</span><span>Cybersecurity</span><span>Networking</span><span>Python</span><span>Data Analytics</span><span>Ethical Hacking</span></div>
-        </div>
-      </section>
-    </main>
-
-    <footer><span>© 2026 Hephzibah Behulah</span><span>Built for learning · hosted on GitHub Pages</span></footer>
-  </div>
-  <script src="script.js"></script>
-</body>
-</html>
+<div class="app-shell">
+<header class="topbar">
+<a class="brand" href="#top"><img src="logo.svg" alt="Hephzibah Behulah" class="brand-logo"><span><strong>TECHNOLOGY LAB</strong><small>LEARN • BUILD • SECURE</small></span></a>
+<nav class="topnav"><a href="#library">Library</a><a href="#resources">Resources</a><a href="#toolbench">Toolbench</a><a href="#roadmap">Roadmap</a><a href="letterhead.html">Letterhead</a><a class="github-link" href="https://github.com/HephzibahBehulah/Hacking-Security-Ebooks" target="_blank" rel="noopener">GitHub ↗</a></nav>
+</header>
+<main id="top">
+<section class="hero">
+<div class="hero-copy"><div class="eyebrow"><span class="pulse"></span> PERSONAL TECHNOLOGY LAB • GERMANY</div>
+<h1>From <em>wires</em> to secure systems.</h1>
+<p>A practical knowledge platform built around one journey: electronics and industrial technology → networking and software → cybersecurity → data analytics. Study the theory, use the tools, build the lab, document the result.</p>
+<div class="hero-actions"><a class="btn primary" href="#toolbench">Open the toolbench</a><a class="btn secondary" href="#library">Explore the knowledge base</a></div>
+<div class="hero-strip"><span>ELEKTRONIKER</span><span>CYBERSECURITY</span><span>PYTHON / DATA</span><span>INDUSTRIAL TECHNOLOGY</span></div></div>
+<div class="terminal-card"><div class="terminal-head"><span></span><span></span><span></span><b>hephzibah://lab</b></div><div class="terminal-body"><div><i>identity</i><strong>Hephzibah Behulah</strong></div><div><i>base</i><strong>Hamburg, Germany</strong></div><div><i>background</i><strong>Electronics / Aviation</strong></div><div><i>focus</i><strong>Cybersecurity + Data</strong></div><div><i>workflow</i><strong>Learn → Lab → Build</strong></div><div><i>status</i><span class="online">● BUILDING</span></div></div></div>
+</section>
+<section class="stats"><div><strong id="book-count">—</strong><span>local PDF resources</span></div><div><strong id="category-count">8+</strong><span>learning domains</span></div><div><strong>20+</strong><span>curated web resources</span></div><div><strong>24/7</strong><span>personal lab</span></div></section>
+<section class="domains"><div class="section-heading"><div><span class="section-kicker">00 / THE STACK</span><h2>One lab. Multiple disciplines.</h2></div><p>The goal is not to become a collector of certificates. Build transferable engineering skill across hardware, software, security and data.</p></div>
+<div class="domain-grid"><a href="#library" class="domain"><b>01</b><h3>Electronics</h3><p>Components, circuits, measurement, sensors, digital logic.</p></a><a href="#library" class="domain"><b>02</b><h3>Electrical</h3><p>Protection, control, machines, installation principles and safety.</p></a><a href="#library" class="domain"><b>03</b><h3>Automation</h3><p>PLC concepts, industrial networks, control systems and OT security.</p></a><a href="#library" class="domain"><b>04</b><h3>Cybersecurity</h3><p>Networking, Linux, web security, pentesting, defence and forensics.</p></a><a href="#library" class="domain"><b>05</b><h3>Programming</h3><p>Python, scripting, Git, web technologies and automation.</p></a><a href="#library" class="domain"><b>06</b><h3>Data Analytics</h3><p>SQL, Pandas, visualisation, machine learning and practical projects.</p></a></div></section>
+<section class="library-section" id="library"><div class="section-heading"><div><span class="section-kicker">01 / KNOWLEDGE BASE</span><h2>Security & Technical Library</h2></div><p>Your repository remains the source of local PDFs. The interface adds a second layer: curated links, tools and learning paths.</p></div>
+<div class="controls"><label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Search PDFs, topics, tools..." autocomplete="off"></label><select id="category"><option value="all">All areas</option></select><button id="reset" class="filter-btn">Reset</button></div>
+<div class="notice"><span>i</span><p><strong>Responsible learning.</strong> Use security material only on systems you own or have explicit permission to test. Follow the copyright and licence terms of every resource.</p></div>
+<div id="library-grid" class="library-grid"></div><div id="empty" class="empty" hidden>No resources match your search.</div></section>
+<section id="resources" class="resources"><div class="section-heading"><div><span class="section-kicker">02 / CURATED KNOWLEDGE</span><h2>Resource map</h2></div><p>Official documentation and standards-first links. This section is designed to grow as the lab grows.</p></div><div id="resource-grid" class="resource-grid"></div></section>
+<section id="toolbench" class="toolbench"><div class="section-heading"><div><span class="section-kicker">03 / PRACTICAL TOOLS</span><h2>Engineering Toolbench</h2></div><p>Small browser tools for everyday study. Calculations happen locally in your browser.</p></div>
+<div class="tool-grid">
+<article class="tool-card"><div class="tool-icon">Ω</div><h3>Ohm's Law</h3><p>Enter any two values to calculate the missing electrical quantity.</p><div class="tool-fields"><input id="ohm-v" type="number" step="any" placeholder="Voltage V"><input id="ohm-i" type="number" step="any" placeholder="Current A"><input id="ohm-r" type="number" step="any" placeholder="Resistance Ω"></div><button class="tool-btn" onclick="calcOhm()">Calculate</button><output id="ohm-out">—</output></article>
+<article class="tool-card"><div class="tool-icon">V÷</div><h3>Voltage Divider</h3><p>Calculate Vout from Vin, R1 and R2.</p><div class="tool-fields"><input id="div-v" type="number" step="any" placeholder="Vin V"><input id="div-r1" type="number" step="any" placeholder="R1 Ω"><input id="div-r2" type="number" step="any" placeholder="R2 Ω"></div><button class="tool-btn" onclick="calcDivider()">Calculate</button><output id="div-out">—</output></article>
+<article class="tool-card"><div class="tool-icon">CIDR</div><h3>IPv4 Quick Check</h3><p>Convert a CIDR prefix into subnet mask and address count.</p><div class="tool-fields"><input id="cidr" type="text" placeholder="192.168.1.0/24"></div><button class="tool-btn" onclick="calcCIDR()">Calculate</button><output id="cidr-out">—</output></article>
+<article class="tool-card"><div class="tool-icon">▣</div><h3>Resistor Helper</h3><p>Quickly estimate resistance from the first three colour bands.</p><div class="tool-fields"><select id="c1"></select><select id="c2"></select><select id="c3"></select></div><button class="tool-btn" onclick="calcResistor()">Calculate</button><output id="res-out">—</output></article>
+</div></section>
+<section class="study-dashboard"><div><span class="section-kicker">04 / STUDY SYSTEM</span><h2>Turn reading into evidence.</h2><p>Track your current learning cycle in this browser. The state is saved locally on your device.</p></div><div class="progress-box"><label>Current focus <select id="focus"><option>Electronics foundations</option><option>Electrical engineering</option><option>Networking & Linux</option><option>Web security</option><option>Offensive security</option><option>Defensive security</option><option>Python & data analytics</option><option>Industrial / OT security</option></select></label><label>Weekly target <input id="target" type="range" min="1" max="20" value="7"><output id="target-out">7 hours</output></label><button class="tool-btn" onclick="saveStudy()">Save study plan</button><span id="saved" class="saved"></span></div></section>
+<section id="roadmap" class="roadmap"><div class="section-heading"><div><span class="section-kicker">05 / LEARNING PATH</span><h2>The engineering bridge</h2></div><p>A sequence that respects the foundation: understand the physical system before securing the digital one.</p></div><div class="tree"><article><span>01</span><h3>Electrical & Electronics</h3><p>Voltage, current, resistance, power, components, measurement, digital logic.</p></article><article><span>02</span><h3>Automation & Networks</h3><p>PLC concepts, industrial communication, TCP/IP, Ethernet, troubleshooting.</p></article><article><span>03</span><h3>Linux & Programming</h3><p>Shell, Python, Git, processes, filesystems, scripting and automation.</p></article><article><span>04</span><h3>Cybersecurity</h3><p>Threats, authentication, web security, reconnaissance, testing and defence.</p></article><article><span>05</span><h3>Data & Intelligence</h3><p>SQL, Pandas, visualisation, statistics and machine learning fundamentals.</p></article><article><span>06</span><h3>OT / Security Engineering</h3><p>Apply security thinking to industrial, aviation and connected technical systems.</p></article></div></section>
+<section class="about" id="about"><div class="about-card"><span class="section-kicker">06 / THE BUILDER</span><h2>Wires taught precision.<br>Code taught possibility.<br>Security taught responsibility.</h2><p>Hephzibah Behulah is an Elektroniker in Germany building a technology path across electronics, industrial technology, cybersecurity, Python and data analytics. This site is a living notebook and portfolio: resources are collected, concepts are simplified, experiments are documented and projects turn theory into evidence.</p><div class="tags"><span>Elektroniker</span><span>Cybersecurity</span><span>Networking</span><span>Python</span><span>SQL</span><span>Data Analytics</span><span>Industrial Technology</span><span>Ethical Hacking</span></div><div class="about-links"><a href="https://github.com/HephzibahBehulah" target="_blank">GitHub profile ↗</a><a href="logo.svg">Brand logo ↗</a><a href="letterhead.html">Letterhead ↗</a></div></div></section>
+</main><footer><span>© 2026 Hephzibah Behulah</span><span>Electronics • Cybersecurity • Data • Germany</span></footer></div>
+<script src="script.js"></script><script src="tools.js"></script>
+</body></html>
