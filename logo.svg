@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" role="img" aria-labelledby="title desc">
+<title id="title">Hephzibah Behulah logo</title><desc id="desc">A shield combined with a circuit trace and the initials HB</desc>
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#132119"/><stop offset="1" stop-color="#245c3a"/></linearGradient></defs>
+<rect width="900" height="240" rx="28" fill="#f7f8f6"/>
+<path d="M118 30 190 55v57c0 50-31 76-72 96-41-20-72-46-72-96V55z" fill="url(#g)"/>
+<path d="M118 65v105M83 101h70M84 143h68" stroke="#dff1e4" stroke-width="7" stroke-linecap="round"/>
+<circle cx="118" cy="65" r="8" fill="#dff1e4"/><circle cx="83" cy="101" r="8" fill="#dff1e4"/><circle cx="153" cy="101" r="8" fill="#dff1e4"/><circle cx="84" cy="143" r="8" fill="#dff1e4"/><circle cx="152" cy="143" r="8" fill="#dff1e4"/>
+<text x="235" y="102" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="6" fill="#152019">HEPHZIBAH</text>
+<text x="238" y="151" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="700" letter-spacing="9" fill="#245c3a">BEHULAH</text>
+<text x="240" y="184" font-family="monospace" font-size="14" letter-spacing="3" fill="#66716a">ELECTRONICS  •  CYBERSECURITY  •  DATA</text>
+</svg>
